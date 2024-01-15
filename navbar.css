@@ -1,0 +1,247 @@
+* {
+   margin: 0%;
+   padding: 0%;
+}
+
+.highlight {
+   background-color: #ffb300;
+   text-align: center;
+   padding: 10px;
+   margin-right: 5px;
+   color: #4c4d52;
+   font-size: 19px;
+   font-weight: 400;
+   letter-spacing: -0.3px;
+   font-family: "Segoe UI";
+}
+
+.highlight a {
+   color: #5845b7;
+   text-decoration: none;
+}
+
+.navbar {
+   background-color: #f7f7f7;
+   color: #878787;
+   padding: 20px 55px;
+   margin-top: 0px;
+}
+
+.navbar li {
+   display: inline-block;
+}
+.navbar ul li:first-child {
+   margin-left: 18px;
+}
+
+.navbar ul li:nth-child(2) {
+   margin-left: 360px;
+}
+.navbar ul li:nth-child(3) {
+   margin-left: 45px;
+}
+.navbar ul li:nth-child(4) {
+   margin-left: 40px;
+}
+.navbar ul li:nth-child(5) {
+   margin-left: 40px;
+}
+.navbar ul li:nth-child(6) {
+   margin-left: 40px;
+}
+.logo{
+   font-size: 35px;
+   color:blue;
+   margin-left: 76px;
+}
+.color{
+   background-color: blue;
+   color: #f2f2f3;
+   border-radius: 25%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.main i{
+   color: blue;
+}
+.main ul{
+display: flex;
+margin-right: 100px;
+}
+.main ul li{
+list-style: none;
+}
+.main ul li a{
+  text-decoration: none;
+  
+}
+.main ul li a i{
+  font-size: 30px;
+}
+.search_box{
+  background: transparent;
+  border:0px;
+  outline: 0px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+}
+.search_box_form{
+   
+   
+}
+.search_box_form input:focus{
+   outline: #f2f2f3;
+}
+input{
+   border: 0;
+   line-height: 2em;
+}
+
+
+/*
+
+.main {
+   display: inline-block;
+   padding-top: 400px;
+}
+
+#form {
+   padding-left: 20px;
+   padding-top: 15px;
+}
+
+#utility li {
+   display: inline-block;
+   margin: 0px;
+   font-family: "Segoe UI";
+   color: #4c4d52;
+   letter-spacing: -0.3px;
+   vertical-align: middle;
+}
+
+.li-00 {
+   padding-left: 43px;
+   padding-top: 20px;
+}
+.li-10{
+   padding-right: 5px;
+}
+.li-12{
+   padding-left: 50px;
+}
+
+
+/*
+.li-10 {
+   vertical-align: top;
+   padding-left: 8px;
+   padding-top: 25px;
+   width: 10px;
+}
+/*
+
+.list-last{
+   font-size: 17px;
+   color: #878787;
+   font-weight: 600;
+   letter-spacing: 0.2px;
+   */
+
+/*
+.li-11 {
+   margin-left: px;
+   letter-spacing: -0.3px;
+}
+
+.li-12 {
+   margin-left: px;
+   margin-right: 0px;
+}
+*/
+#productmenu li {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: inline flex;
+   margin-top: 70px;
+   font-size: 20px;
+   padding-left: 57px;
+   color: #323f65;
+}
+
+
+
+
+ #productmenu li{
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 65px;
+    font-size: 22px;
+ }
+
+.li-01 {
+   padding-left: 2px;
+}
+
+.li-02 {
+   padding-left: ;
+}
+
+.li-03 {
+   padding-left: ;
+}
+
+.li-04 {
+   margin-right: 10px;
+}
+
+.li-05 {
+   padding-left: ;
+}
+
+.li-06 {
+   padding-left: ;
+}
+
+
+#productmenu {
+   padding: 20px;
+}
+
+header {
+   background-image: url(bestore-sample-header.PNG);
+   background-size: 1366px;
+   background-repeat: no-repeat;
+   min-height: 381px;
+   font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+i {
+   padding-left: 10px;
+}
+
+
+.search_box {
+   border: 1px solid;
+   max-height: 38px;
+   border-radius: 5px;
+   margin-top: 29px;
+}
+
+.search_box form {
+   padding: 7px 5px 0px 5px;
+}
+
+.search_box form input {
+   border: 0;
+}
+
+.search_box form input:focus {
+   outline-color: #FFFFFF;
+}
